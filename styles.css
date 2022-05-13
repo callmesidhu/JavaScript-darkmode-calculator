@@ -60,4 +60,13 @@ p {
     width: 390px;
     height: 50px;  
 }
-
+#output-screen {
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+}
+#output-box {
+    padding-top: 0px;
+}
