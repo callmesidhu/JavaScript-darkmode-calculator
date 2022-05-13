@@ -62,10 +62,15 @@ p {
 }
 #output-screen {
     height: 40px;
-    width: 300px;
+    width: 250px;
     margin-top: 10px;
-    margin-right: 20px;
-    float: right;
+    margin-left: 20px;
+    float: left;
+    color: aliceblue;
+    font-size: 60px;
+    text-align: right;
+    font-family: serif;
+    border: black;
 }
 #output-box {
     padding-top: 0px;
