@@ -62,7 +62,7 @@ p {
 }
 #output-screen {
     height: 40px;
-    width: 250px;
+    width: 270px;
     margin-top: 10px;
     margin-left: 20px;
     float: left;
@@ -74,4 +74,20 @@ p {
 }
 #output-box {
     padding-top: 0px;
+}
+#backspace {
+    text-shadow: 1px 1px 15px rgb(0, 17, 255), 0 0 25px rgb(38, 0, 255), 0 0 5px rgb(21, 0, 139);
+    font-size: 50px;
+    color: wheat;
+    float: right;
+    margin-right: 15px;
+
+}
+#backspace:hover {
+    text-shadow: 1px 1px 15px rgb(0, 17, 255), 0 0 25px rgb(38, 0, 255), 0 0 5px rgb(21, 0, 139);
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    float: right;
+    margin-right: 15px;
+
 }
