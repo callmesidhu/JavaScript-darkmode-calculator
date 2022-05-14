@@ -30,19 +30,19 @@ function division() {
 function equals() {
     if(operation==1) {
         operationValue=operationValue+parseFloat(document.getElementById("output-screen").value);
-        document.getElementById("output-screen").value=operationValue;
+        document.getElementById("output-screen").value=operationValue.toFixed(3);
         operation=0;
         operationValue=0;
     }
     else if(operation==2) {
         operationValue=operationValue-parseFloat(document.getElementById("output-screen").value);
-        document.getElementById("output-screen").value=operationValue;
+        document.getElementById("output-screen").value=operationValue.toFixed(3);
         operation=0;
         operationValue=0;
     }
     else if(operation==3) {
         operationValue=operationValue*parseFloat(document.getElementById("output-screen").value);
-        document.getElementById("output-screen").value=operationValue;
+        document.getElementById("output-screen").value=operationValue.toFixed(3);
         operation=0;
         operationValue=0;
     }
@@ -52,7 +52,7 @@ function equals() {
             document.getElementById("output-screen").value= "∞      " ;
         }
         else {
-        document.getElementById("output-screen").value=operationValue;
+        document.getElementById("output-screen").value=operationValue.toFixed(3);
         }
         operation=0;
         operationValue=0;
