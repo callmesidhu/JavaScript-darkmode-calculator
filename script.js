@@ -3,6 +3,8 @@ function equals() {
     if(operation==1) {
         operationValue=operationValue+parseInt(document.getElementById("output-screen").value);
         document.getElementById("output-screen").value=operationValue;
+        operation=0;
+        operationValue=0;
     }
 }
 function clearValue() {
@@ -12,7 +14,7 @@ function buttonClicked(valueFromButton) {
     var oldValue=document.getElementById("output-screen").value;
     document.getElementById("output-screen").value = oldValue+valueFromButton;
 }
-function addision() {
+function addition() {
     operation=1;
     operationValue=parseInt(document.getElementById("output-screen").value);
     document.getElementById("output-screen").value="";
