@@ -81,6 +81,7 @@ p {
     color: wheat;
     float: right;
     margin-right: 15px;
+    border: black;
 
 }
 #backspace:hover {
